@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:3000/api/applications"
+    baseURL: "https://hireflow-job-portal-xoel.onrender.com/api/applications"
 });
 
 API.interceptors.request.use((config) => {

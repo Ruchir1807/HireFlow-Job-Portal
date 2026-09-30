@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL:"http://localhost:3000/api/jobs"
+    baseURL:"https://hireflow-job-portal-xoel.onrender.com/api/jobs"
 });
 
 export const getJobById = async(id)=>{

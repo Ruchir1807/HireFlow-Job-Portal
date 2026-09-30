@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "http://localhost:3000/api/auth"
+    baseURL: "https://hireflow-job-portal-xoel.onrender.com/api/auth"
 });
 
 // Register a new user
